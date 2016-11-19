@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_to_learn"
+            android:icon="@drawable/ic_compass"
+            android:title="Что изучать сейчас?" />
+    </group>
+
+    <item android:title="Мои профили">
+        <menu>
+            <item
+                android:id="@+id/nav_front_end"
+                android:icon="@drawable/ic_study"
+                android:title="Основы Front-end" />
+            <item
+                android:id="@+id/nav_fun"
+                android:icon="@drawable/ic_study"
+                android:title="Функциональное программирование" />
+            <item
+                android:id="@+id/nav_oop"
+                android:icon="@drawable/ic_study"
+                android:title="ООП" />
+
+        </menu>
+    </item>
+
+</menu>
